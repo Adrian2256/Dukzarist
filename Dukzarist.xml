@@ -73,24 +73,58 @@
       </p>
       <p class="indent">
         <strong>
-          <em>Languages.</em>
-        </strong>You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.
-      </p>
-      <p class="indent">
-        <strong>
           <em>Fire affinity</em>
         </strong> You're linked with fire. You know the Fire Bolt cantrip. Constitution is your spellcasting ability for this cantrip.
-      </p>
-      <p class="indent">
-        <strong>
-          <em>Extra Language</em>
-        </strong> You can speak, read, and write one extra language of your choosing.
       </p>
       <p class="indent">
         <strong>
           <em>Metal Allergy</em>
         </strong> If a Dukzarist comes into contact with any type of metal, it must succeed a Constitution saving throw (DC 14) or suffer one level of exhaustion. If it keeps direct contact for a long period of time, the penalty will increase. You gain one level of exhaustion for each day you keep in contact with it. This effect dissapears after you finish a long rest while apart from the metal. You can repeat the saving throw each time you finish a short rest to get rid of one level of exhaustion. It can wear any type of clothing such as gloves to avoid these effects.
       </p>
+      <p class="indent">
+        <strong>
+          <em>Languages.</em>
+        </strong>You can speak, read, and write Common, Primordial and one language of your choice. Primordial is a guttural language, filled with harsh syllables and hard consonants.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Extra Language</em>
+        </strong> You can speak, read, and write one extra language of your choosing.
+      </p>
     </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Dench, Feng, Gell, Henk, Holg, Imsh, Keth, Krusk, Mhurren, Ront, Shump, Thokk</set>
+      <set name="names" type="female">Baggi, Emen, Engong, Kansif, Myev, Neega, Ovak, Ownka, Shautha, Sutha, Vola, Volen, Yevelda</set>
+      <set name="names-format">{{name}}</set>
+      <set name="height" modifier="2d10">4'10"</set>
+      <set name="weight" modifier="2d6">140 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strenght" value="2"/>
+      <stat name="constitution" value="1"/>
+      <stat name="innate speed" value="35" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION"/>
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_EXCEPTIONAL_ENDURANCE"/>
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_QUICK_HEALING"/>
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HOLD_DEATH_BACK"/>
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE"/>
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FIRE_AFFINITY"/>
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_METAL_ALLERGY"/>
+      <grant type="Language" id="ID_LANGUAGE_COMMON"/>
+      <grant type="Language" id="ID_LANGUAGE_PRIMORDIAL"/>
+      <select type="Language" name="Language (Dukzarist)" supports="Standard||Exotic"/>
+    </rules>
+  </element>
+  <element name="Exceptional Endurance" type="Racial Trait" source="Homebrew" id="ID_ID_RACIAL_TRAIT_EXCEPTIONAL_ENDURANCE">
+    <description>
+      You have proficiency in the Athletics skill and advantage on Constitution saving throws.
+    </description>
+    <sheet>
+      <description>
+        You have proficiency in the Athletics skill and advantage on Constitution saving throws.
+      </description>
+    </sheet>
   </element>
 </elements>
