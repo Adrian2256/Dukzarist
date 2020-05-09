@@ -109,7 +109,7 @@
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_EXCEPTIONAL_ENDURANCE"/>
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_QUICK_HEALING"/>
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HOLD_DEATH_BACK"/>
-      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE"/>
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_DUKZARIST_TRANCE"/>
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FIRE_AFFINITY"/>
       <grant type="Racial Trait" id="ID_RACIAL_TRAIT_METAL_ALLERGY"/>
       <grant type="Language" id="ID_LANGUAGE_COMMON"/>
@@ -126,10 +126,13 @@
         You have proficiency in the Athletics skill and advantage on Constitution saving throws.
       </description>
     </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+    </rules>
   </element>
   <element name="Quick Healing" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_QUICK_HEALING">
     <description>
-      You have stamina reserve from where you can access when you suffer from injuries. As a bonus action, you can heal a nnumber of hit points equal to your hit dice + your character level. You can't use it again until you finish a short rest.
+      You have stamina reserve from where you can access when you suffer from injuries. As a bonus action, you can heal a number of hit points equal to your hit dice + your character level. You can't use it again until you finish a short rest.
     </description>
     <sheet action="Bonus Action" usage="1/Short Rest">
       <description>
