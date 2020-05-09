@@ -3,7 +3,95 @@
   <info>
     <name>Dukzarist</name>
     <update version="0.1">
-      <file name"Dukzarist.xml" url="https://raw.githubusercontent.com/Adrian2256/Dukzarist/master/Dukzarist.xml"
+      <file name="Dukzarist.xml" url="https://raw.githubusercontent.com/Adrian2256/Dukzarist/master/Dukzarist.xml"/>
     </update>
   </info>
+  <element name="Dukzarist" type="Race" source="Homebrew" id="ID_RACE_DUKZARIST">
+    <description>
+      <p class="flavor">
+        The Nephilium Duk'zarist are also called the Shadow Souls. They're physically graceful people. The Duk'zarist culture posseses a society that makes its members to improve. They value each of their skills, so the one that has a higher capacity, also has higher privileges.
+      </p>
+      <h4>DUKZARIST TRAITS</h4>
+      <p>Los dukzraist vienen de la raza de tal....</p>
+      <p class="indent">
+        <strong>
+          <em>Ability Score Increase.</em>
+        </strong>
+        Your Strength score increases by 2, and your Constitution score increases by 1.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Age.</em>
+        </strong>
+        Dukzarist don't mature at the same rate humans, instead, they mantaint their physic status until the age of 90, when they start to age quickly. They tend to live the same as humans do.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Alignment.</em>
+        </strong>
+        They're exceptionally competitive in all fields, both intelectually and physically, but they tend to develop more the later. They admire the strenght and every other individual that can be considered powerful in itself, even if it only increases their dream to surpass him/her. They tend to be caotic.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Size.</em>
+        </strong>
+        Dukzarist tend to be tall, ranging from 5.5 to 6 feet tall. Your size is Medium.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Speed.</em>
+        </strong> Your base walking speed is 35 feet.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Darkvision.</em>
+        </strong> Thanks to your Dukzarist blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Exceptional Endurance.</em>
+        </strong> You have proficiency in the Athletics skill and advantage on Constitution saving throws.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Quick Healing.</em>
+        </strong> You have stamina reserve from where you can access when you suffer from injuries. As a bonus action, you can heal a nnumber of hit points equal to your hit dice + your character level. You can't use it again until you finish a short rest.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Darkness Tendency.</em>
+        </strong> You have resistance to necrotic damage. You can't gain resistance to radiant damage.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Hold Death Back!</em>
+        </strong> You have advantage on Death saving throws.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Trance.</em>
+        </strong> Dukzarist don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Languages.</em>
+        </strong>You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Fire affinity</em>
+        </strong> You're linked with fire. You know the Fire Bolt cantrip. Constitution is your spellcasting ability for this cantrip.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Extra Language</em>
+        </strong> You can speak, read, and write one extra language of your choosing.
+      </p>
+      <p class="indent">
+        <strong>
+          <em>Metal Allergy</em>
+        </strong> If a Dukzarist comes into contact with any type of metal, it must succeed a Constitution saving throw (DC 14) or suffer one level of exhaustion. If it keeps direct contact for a long period of time, the penalty will increase. You gain one level of exhaustion for each day you keep in contact with it. This effect dissapears after you finish a long rest while apart from the metal. You can repeat the saving throw each time you finish a short rest to get rid of one level of exhaustion. It can wear any type of clothing such as gloves to avoid these effects.
+      </p>
+    </description>
+  </element>
 </elements>
