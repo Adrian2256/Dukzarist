@@ -101,7 +101,7 @@
       <set name="weight" modifier="2d6">140 lb.</set>
     </setters>
     <rules>
-      <stat name="strenght" value="2"/>
+      <stat name="strength" value="2"/>
       <stat name="constitution" value="1"/>
       <stat name="innate speed" value="35" bonus="base"/>
       <grant type="Size" id="ID_SIZE_MEDIUM" />
