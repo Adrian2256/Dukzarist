@@ -127,4 +127,50 @@
       </description>
     </sheet>
   </element>
+  <element name="Quick Healing" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_QUICK_HEALING">
+    <description>
+      You have stamina reserve from where you can access when you suffer from injuries. As a bonus action, you can heal a nnumber of hit points equal to your hit dice + your character level. You can't use it again until you finish a short rest.
+    </description>
+    <sheet action="Bonus Action" usage="1/Short Rest">
+      <description>
+        You have stamina reserve from where you can access when you suffer from injuries. As a bonus action, you can heal a nnumber of hit points equal to your hit dice + {{trait:quick-healing-level}}. You can't use it again until you finish a short rest.
+      </description>
+    </sheet>
+    <rules>
+      <stat name="trait:quick-healing-level" value="level"/>
+    </rules>
+  </element>
+  <element name="Hold Death Back" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_HOLD_DEATH_BACK">
+    <description>
+      You have advantage on Death saving throws.
+    </description>
+    <sheet>
+      <description>
+        You have advantage on Death saving throws.
+      </description>
+    </sheet>
+  </element>
+  <element name="Fire Affinity" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_FIRE_AFFINITY">
+    <description>
+      You're linked with fire. You know the Fire Bolt cantrip. Constitution is your spellcasting ability for this cantrip.
+    </description>
+    <sheet>
+      <description>
+        You're linked with fire. You know the Fire Bolt cantrip. Constitution is your spellcasting ability for this cantrip.
+      </description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
+    </rules>
+  </element>
+  <element name="Metal Allergy" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_METAL_ALLERGY">
+    <description>
+      If a Dukzarist comes into contact with any type of metal, it must succeed a Constitution saving throw (DC 14) or suffer one level of exhaustion. If it keeps direct contact for a long period of time, the penalty will increase. You gain one level of exhaustion for each day you keep in contact with it. This effect dissapears after you finish a long rest while apart from the metal. You can repeat the saving throw each time you finish a short rest to get rid of one level of exhaustion. It can wear any type of clothing such as gloves to avoid these effects.
+    </description>
+    <sheet>
+      <description>
+        If a Dukzarist comes into contact with any type of metal, it must succeed a Constitution saving throw (DC 14) or suffer one level of exhaustion. If it keeps direct contact for a long period of time, the penalty will increase. You gain one level of exhaustion for each day you keep in contact with it. This effect dissapears after you finish a long rest while apart from the metal. You can repeat the saving throw each time you finish a short rest to get rid of one level of exhaustion. It can wear any type of clothing such as gloves to avoid these effects.
+      </description>
+    </sheet>
+  </element>
 </elements>
