@@ -117,7 +117,7 @@
       <select type="Language" name="Language (Dukzarist)" supports="Standard||Exotic"/>
     </rules>
   </element>
-  <element name="Exceptional Endurance" type="Racial Trait" source="Homebrew" id="ID_ID_RACIAL_TRAIT_EXCEPTIONAL_ENDURANCE">
+  <element name="Exceptional Endurance" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_EXCEPTIONAL_ENDURANCE">
     <description>
       You have proficiency in the Athletics skill and advantage on Constitution saving throws.
     </description>
