@@ -136,7 +136,7 @@
     </description>
     <sheet action="Bonus Action" usage="1/Short Rest">
       <description>
-        You can heal a nnumber of hit points equal to your hit dice + {{trait:quick-healing-level}}.
+        You can heal a number of hit points equal to your hit dice + {{trait:quick-healing-level}}.
       </description>
     </sheet>
     <rules>
