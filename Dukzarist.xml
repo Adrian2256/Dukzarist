@@ -133,7 +133,7 @@
     </description>
     <sheet action="Bonus Action" usage="1/Short Rest">
       <description>
-        You have stamina reserve from where you can access when you suffer from injuries. As a bonus action, you can heal a nnumber of hit points equal to your hit dice + {{trait:quick-healing-level}}. You can't use it again until you finish a short rest.
+        You can heal a nnumber of hit points equal to your hit dice + {{trait:quick-healing-level}}.
       </description>
     </sheet>
     <rules>
@@ -147,6 +147,16 @@
     <sheet>
       <description>
         You have advantage on Death saving throws.
+      </description>
+    </sheet>
+  </element>
+  <element name="Trance" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_DUKZARIST_TRANCE">
+    <description>
+      Dukzarist don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+    </description>
+    <sheet>
+      <description>
+        Dukzarist don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day.
       </description>
     </sheet>
   </element>
@@ -169,7 +179,7 @@
     </description>
     <sheet>
       <description>
-        If a Dukzarist comes into contact with any type of metal, it must succeed a Constitution saving throw (DC 14) or suffer one level of exhaustion. If it keeps direct contact for a long period of time, the penalty will increase. You gain one level of exhaustion for each day you keep in contact with it. This effect dissapears after you finish a long rest while apart from the metal. You can repeat the saving throw each time you finish a short rest to get rid of one level of exhaustion. It can wear any type of clothing such as gloves to avoid these effects.
+        If a Dukzarist comes into contact with any type of metal, it must succeed a Constitution saving throw (DC 14) or suffer one level of exhaustion. If it keeps direct contact for a long period of time, the penalty will increase. You gain one level of exhaustion for each day you keep in contact with it. This effect dissapears after you finish a long rest while apart from the metal. You can repeat the saving throw each time you finish a short rest to get rid of one level of exhaustion.
       </description>
     </sheet>
   </element>
